@@ -124,18 +124,18 @@ body {
 }
 
 ::selection {
-  background: #22b3c1;
+  background: #224e87bb;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #22b3c1;
+  background: #224e87;
   color: #fff;
 }
 
 .text-button a {
   font-size: 14px;
-  color: #22b3c1;
+  color: #224e87;
   font-weight: 500;
   transition: all .3s;
 }
@@ -151,9 +151,9 @@ body {
 
 .border-button a {
   font-size: 14px;
-  color: #22b3c1;
+  color: #fff;
   background-color: transparent;
-  border: 1px solid #22b3c1;
+  border: 1px solid #fff;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -167,14 +167,15 @@ body {
 
 .border-button a:hover {
   background-color: #22b3c1;
+  border: 1px solid #22b3c1;
   color: #fff;
 }
 
 .main-button a {
   font-size: 14px;
   color: #fff;
-  background-color: #22b3c1;
-  border: 1px solid #22b3c1;
+  background-color: #224e87;
+  border: 1px solid #224e87;
   padding: 12px 30px;
   display: inline-block;
   border-radius: 25px;
@@ -187,9 +188,9 @@ body {
 }
 
 .main-button a:hover {
-  background-color: #fff;
-  color: #22b3c1;
-  border: 1px solid #fff;
+  background-color: #224e87;
+  color: #224e87;
+  border: 1px solid #224e87;
 }
 
 section {
@@ -705,18 +706,19 @@ Header Style
 
 /* 
 ---------------------------------------------
-Banner Style
+Banner Style Multimedia
 --------------------------------------------- 
 */
 
 #section-1 {
-  margin-top: 0px;
-  height: 100vh;
-  min-height: 700px;
+  margin-top: 20px;
+  height: 60vh;
+  min-height: 200px;
   color: #fff;
   background-color: #222;
   position: relative;
 }
+
 #section-1 .content-slider {
   position: relative;
   width: 100%;
@@ -744,42 +746,7 @@ Banner Style
   background-position: 50% 50%;
   transition: all 0.5s ease;
 }
-#section-1 .more-info {
-  margin-top: 60px;
-  background-color: #fff;
-  padding: 30px 60px;
-  border-radius: 61px;
-  position: absolute;
-  width: 80%;
-  left: 10%;
-  bottom: 130px;
-  display: inline-block;
-}
-#section-1 .more-info i {
-  color: #22b3c1;
-  font-size: 24px;
-  width: 60px;
-  height: 60px;
-  display: inline-block;
-  text-align: center;
-  line-height: 58px;
-  border: 1px solid #22b3c1;
-  border-radius: 50%;
-  float: left;
-  margin-right: 20px;
-}
-#section-1 .more-info h4 {
-  text-align: left;
-  font-size: 20px;
-  color: #22b3c1;
-  font-weight: 700;
-  line-height: 28px;
-}
-#section-1 .more-info h4 span {
-  font-size: 15px;
-  color: #afafaf;
-  font-weight: 400;
-}
+
 #section-1 .main-button {
   margin-top: 8px;
   text-align: right;
@@ -812,25 +779,25 @@ Banner Style
   font-weight: 700;
   margin-bottom: 30px;
 }
-#section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a:hover {
-  color: #22b3c1;
-  border-color: #22b3c1;
-  transition: 0.3s;
-}
+
 #section-1 .content-slider .slider #top-banner-1 {
-  background: url('../images/banner-01.jpg') no-repeat center center;
+  background: url('../images/multimedia-01.jpg') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-2 {
-  background: url('../images/banner-02.jpg') no-repeat center center;
+  background: url('../images/multimedia-02.webp') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-3 {
-  background: url('../images/banner-03.jpg') no-repeat center center;
+  background: url('../images/multimedia-03.jpg') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider .slider #top-banner-4 {
-  background: url('../images/banner-04.jpg') no-repeat center center;
+  background: url('../images/multimedia-04.jpg') no-repeat center center;
+  background-size: cover;
+}
+#section-1 .content-slider .slider #top-banner-5 {
+  background: url('../images/multimedia-05.jpg') no-repeat center center;
   background-size: cover;
 }
 #section-1 .content-slider nav {
@@ -850,8 +817,8 @@ Banner Style
 #section-1 .content-slider nav .controls label {
   position: relative;
   display: inline-block;
-  width: 19.5%;
-  height: 3.1em;
+  width: 15%;
+  height: 5em;
   overflow: hidden;
   margin: 0 1em;
   padding-top: 1em;
@@ -893,14 +860,16 @@ Banner Style
 #section-1 .content-slider #banner1:checked ~ .slider #top-banner-1,
 #section-1 .content-slider #banner2:checked ~ .slider #top-banner-2,
 #section-1 .content-slider #banner3:checked ~ .slider #top-banner-3,
-#section-1 .content-slider #banner4:checked ~ .slider #top-banner-4 {
+#section-1 .content-slider #banner4:checked ~ .slider #top-banner-4,
+#section-1 .content-slider #banner5:checked ~ .slider #top-banner-5 {
   opacity: 1;
   z-index: 1;
 }
 #section-1 .content-slider #banner1:checked ~ nav label:nth-of-type(1),
 #section-1 .content-slider #banner2:checked ~ nav label:nth-of-type(2),
 #section-1 .content-slider #banner3:checked ~ nav label:nth-of-type(3),
-#section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4) {
+#section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4), 
+#section-1 .content-slider #banner5:checked ~ nav label:nth-of-type(5) {
   cursor: default;
   color: #979797;
   transition: all 0.5s;
@@ -908,13 +877,15 @@ Banner Style
 #section-1 .content-slider #banner1:checked ~ nav label:nth-of-type(1) .progressbar,
 #section-1 .content-slider #banner2:checked ~ nav label:nth-of-type(2) .progressbar,
 #section-1 .content-slider #banner3:checked ~ nav label:nth-of-type(3) .progressbar,
-#section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4) .progressbar {
+#section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4) .progressbar,
+#section-1 .content-slider #banner5:checked ~ nav label:nth-of-type(5) .progressbar {
   background: #8d8d8d;
 }
 #section-1 .content-slider #banner1:checked ~ nav label:nth-of-type(1) .progressbar-fill,
 #section-1 .content-slider #banner2:checked ~ nav label:nth-of-type(2) .progressbar-fill,
 #section-1 .content-slider #banner3:checked ~ nav label:nth-of-type(3) .progressbar-fill,
-#section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4) .progressbar-fill {
+#section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4) .progressbar-fill,
+#section-1 .content-slider #banner5:checked ~ nav label:nth-of-type(5) .progressbar-fill {
   animation: progressBarFill 5s linear;
 }
 /* Animations */
@@ -927,19 +898,14 @@ Banner Style
   }
 }
 
-
 /* 
 ---------------------------------------------
-Visit Country Style
+infografias Style
 --------------------------------------------- 
 */
 
 .visit-country {
   margin-top: 120px;
-}
-
-.visit-country .side-bar-map {
-  margin-left: 30px;
 }
 
 .visit-country .item {
@@ -1107,7 +1073,7 @@ Footer Style
 */
 
 footer {
-  background-color: #22b3c1;
+  background-color: #224e87;
   text-align: center;
   padding: 25px 0px;
 }
@@ -1232,7 +1198,7 @@ About Page Style
 
 .cities-town .slider-content h2 em {
   font-style: normal;
-  color: #22b3c1;
+  color: #224e87;
 }
 
 .cities-town .slider-content .item .thumb {
@@ -2129,7 +2095,7 @@ Reservation Page Style
 
 .reservation-form #reservation-form h4 em {
   font-style: normal;
-  color: #22b3c1;
+  color: #224e87;
 }
 
 .reservation-form #reservation-form {
