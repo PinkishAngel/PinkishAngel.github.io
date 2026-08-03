@@ -188,9 +188,9 @@ body {
 }
 
 .main-button a:hover {
-  background-color: #224e87;
-  color: #224e87;
-  border: 1px solid #224e87;
+  background-color: #22b3c1;
+  color: #fff;
+  border: 1px solid #22b3c1;
 }
 
 section {
@@ -1171,13 +1171,14 @@ About Page Style
 }
 
 .about-main-content .content .main-button a {
-  background-color: #fff;
-  color: #22b3c1;
-  border-color: #fff;
+  background-color: #224e87;
+  color: #fff;
+  border-color: #224e87;
+  opacity: 0.9;
 }
 
 .about-main-content .content .main-button a:hover {
-  opacity: 0.9;
+  opacity: 1;
 }
 
 .cities-town .slider-content {
@@ -1248,7 +1249,7 @@ About Page Style
 
 .cities-town .owl-nav .owl-prev:hover::after,
 .cities-town .owl-nav .owl-next:hover::after {
-  color: #22b3c1;
+  color: #224e87;
 }
 
 .weekly-offers {
@@ -1343,12 +1344,12 @@ About Page Style
 .weekly-offers .owl-nav .owl-next::after {
   font-family: "FontAwesome";
   content: '\f061'; 
-  color: #22b3c1;
+  color: #224e87;
   font-size: 20px;
   width: 46px;
   height: 46px;
   text-align: center;
-  border: 1px solid #22b3c1;
+  border: 1px solid #224e87;
   display: inline-block;
   line-height: 44px;
   border-radius: 50%;
@@ -1363,12 +1364,12 @@ About Page Style
 .weekly-offers .owl-nav .owl-prev::after {
   font-family: "FontAwesome";
   content: '\f060'; 
-  color: #22b3c1;
+  color: #224e87;
   font-size: 20px;
   width: 46px;
   height: 46px;
   text-align: center;
-  border: 1px solid #22b3c1;
+  border: 1px solid #224e87;
   display: inline-block;
   line-height: 44px;
   border-radius: 50%;
@@ -1379,7 +1380,7 @@ About Page Style
 .weekly-offers .owl-nav .owl-prev:hover::after,
 .weekly-offers .owl-nav .owl-next:hover::after {
   color: #fff;
-  background-color: #22b3c1;
+  background-color: #224e87;
 }
 
 .more-about {
@@ -1408,7 +1409,7 @@ About Page Style
 }
 
 .more-about .info-item span {
-  color: #22b3c1;
+  color: #224e87;
   font-size: 15px;
 }
 
