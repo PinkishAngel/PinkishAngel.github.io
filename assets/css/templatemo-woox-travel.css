@@ -904,93 +904,128 @@ infografias Style
 --------------------------------------------- 
 */
 
-.visit-country {
+.pestana-multimedia {
+  width:100%;
+  overflow:hidden;
+  display:inline-block;
+}
+
+.pestana-multimedia-item{
+  border:none;
+  padding:8px 16px;
+  float:left;
+  width:50%s;
+  display:block;
+  outline:0;
+}
+
+.pestana-button, .pestana-color, .pestana-hover-color:hover{
+  color:#224e87;
+  background-color:#eee;
+}
+
+.pestana-button:hover{
+  color:#eee!important;
+  background-color:#22b3c1!important
+}
+
+.pestana-activa{
+  color:#eee!important;
+  background-color:#22b3c1!important
+}
+
+.info-lista {
   margin-top: 120px;
 }
 
-.visit-country .item {
+.info-lista .multimedia {
+  margin-top: 50px;
+}
+
+.info-lista .item {
   position: relative;
   margin-bottom: 30px;
   padding-bottom: 30px;
   border-bottom: 1px solid #eee;
 }
 
-.visit-country .last-item {
+.info-lista .last-item {
   border-bottom: none;
 }
 
-.visit-country .item .image img {
+.info-lista .item .image img {
   border-radius: 23px;
 }
 
-.visit-country .item .right-content h4 {
+.info-lista .item .right-content h4 {
   font-size: 20px;
   margin-bottom: 5px;
 }
 
-.visit-country .item .right-content span {
+.info-lista .item .right-content span {
   font-size: 15px;
   color: #afafaf;
   display: block;
 }
 
-.visit-country .item .right-content .main-button {
+.info-lista .item .right-content .main-button {
   position: absolute;
   right: 0;
   top: 0;
 }
 
-.visit-country .item .right-content .main-button a:hover {
+.info-lista .item .right-content .main-button a:hover {
   background-color: #22b3c1;
   border-color: #22b3c1;
   color: #fff;
   opacity: 0.8;
 }
 
-.visit-country .item .right-content p {
+.info-lista .item .right-content p {
   margin: 18px 0px;
+  text-align: justify;
 }
 
-.visit-country .item .right-content ul {
+.info-lista .item .right-content ul {
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
   padding: 15px 0px;
 }
 
-.visit-country .item .right-content ul li {
+.info-lista .item .right-content ul li {
   display: inline-block;
   width: 32%;
   color: #afafaf;
   font-size: 14px;
 }
 
-.visit-country .item .right-content ul li:nth-child(2) {
+.info-lista .item .right-content ul li:nth-child(2) {
   text-align: center;
 }
 
-.visit-country .item .right-content ul li:last-child {
+.info-lista .item .right-content ul li:last-child {
   text-align: right;
 }
 
-.visit-country .item .right-content ul li i {
+.info-lista .item .right-content ul li i {
   margin-right: 5px;
   font-size: 16px;
 }
 
-.visit-country .item .right-content .text-button {
+.info-lista .item .right-content .text-button {
   margin-top: 20px;
 }
 
-.visit-country ul.page-numbers {
+.info-lista ul.page-numbers {
   text-align: center;
 }
 
-.visit-country ul.page-numbers li {
+.info-lista ul.page-numbers li {
   display: inline-block;
   margin: 0px 5px;
 }
 
-.visit-country ul.page-numbers li a {
+.info-lista ul.page-numbers li a {
   display: inline-block;
   width: 46px;
   height: 46px;
@@ -1004,18 +1039,18 @@ infografias Style
   transition: all .3s;
 }
 
-.visit-country ul.page-numbers li a:hover {
+.info-lista ul.page-numbers li a:hover {
   background-color: #22b3c1;
   color: #fff;
 }
 
-.visit-country ul.page-numbers li.active a {
+.info-lista ul.page-numbers li.active a {
   background-color: #22b3c1;
   color: #fff;
 }
 
-.visit-country ul.page-numbers li:first-child a,
-.visit-country ul.page-numbers li:last-child a {
+.info-lista ul.page-numbers li:first-child a,
+.info-lista ul.page-numbers li:last-child a {
   border: none;
 }
 
@@ -1178,6 +1213,9 @@ About Page Style
 }
 
 .about-main-content .content .main-button a:hover {
+  background-color: #22b3c1;
+  color: #fff;
+  border-color: #22b3c1;
   opacity: 1;
 }
 
@@ -1629,12 +1667,15 @@ body #user-button:hover .u-icons, body #user-button:focus-within .u-icons {
   height: 300% !important;
 }
 
+/*
+tbwo
+Se tiene que arreglar el color del texto azul en el aspecto oscuro
 @media (prefers-color-scheme: dark) {
   body:not(.light) {
     background: #232223;
     color: white;
   }
-}
+}*/
 body .credit {
   position: absolute;
   bottom: 20px;
@@ -2192,7 +2233,7 @@ body {
     margin-right: 10px;
     margin-top: 8px;
   }
-  .visit-country .item .right-content .main-button a {
+  .info-lista .item .right-content .main-button a {
     font-size: 14px;
     padding: 12px 15px;
   }
@@ -2205,10 +2246,10 @@ body {
   #section-1 .content-slider nav .controls label { 
     width: 7% !important;
   }
-  .visit-country .item .right-content ul li {
+  .info-lista .item .right-content ul li {
     width: 30%;
   }
-  .visit-country .item .right-content h4 {
+  .info-lista .item .right-content h4 {
     margin-top: 20px;
   }
 }
@@ -2230,14 +2271,14 @@ body {
   #section-1 .content-slider nav .controls label {
     width: 15%;
   }
-  .visit-country .item .right-content ul li {
+  .info-lista .item .right-content ul li {
     width: 30% !important;
   }
-  .visit-country .item .right-content {
+  .info-lista .item .right-content {
     position: relative;
   }
   
-  .visit-country .side-bar-map {
+  .info-lista .side-bar-map {
     margin-left: 0px;
     margin-top: 60px;
   }
