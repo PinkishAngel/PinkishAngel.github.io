@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="../../assets/css/templatemo-woox-travel.css">
     <link rel="stylesheet" href="../../assets/css/owl.css">
     <link rel="stylesheet" href="../../assets/css/animate.css">
-    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 <!--
 
 TemplateMo 580 Woox Travel
@@ -51,7 +51,7 @@ https://templatemo.com/tm-580-woox-travel
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
+                    <a href="../../index.html" class="logo">
                         <img src="../../assets/images/logo.png" alt="">
                     </a>
                     <!-- ***** Logo End ***** -->
@@ -75,158 +75,278 @@ https://templatemo.com/tm-580-woox-travel
   <!-- ***** Header Area End ***** -->
 
    <!-- ***** Infografias Inicia ***** -->
-  <div class="visit-country">
+  <div class="info-lista">
     <div class="container">
       <div class="row">
-        <div class="col-lg-5">
-          <div class="section-heading">
-            <h2>Infografías sobre prótesis de la cabeza</h2>
-            <p>Encuentra los diferentes implantes y prótesis de la cabeza.</p>
+        <div class="col-lg-8">
+          <div class="section-heading" style="margin-bottom: 0px;">
+            <h2>Infografías y videos sobre prótesis de la cabeza</h2>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-8">
           <div class="items">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="item">
-                  <div class="row">
-                    <div class="col-lg-4 col-sm-5">
-                      <div class="image">
-                        <img src="assets/images/info-01.jpg" alt="">
+            <div class="pestana-multimedia pestana-color">
+              <button class="pestana-multimedia-item pestana-button pestana-activa" onclick="abrePestana(event, 'infografias')">Infografías</button>
+              <button class="pestana-multimedia-item pestana-button" onclick="abrePestana(event, 'videos')">Videos</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="multimedia" id="infografias">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="items">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-5">
+                        <div class="image">
+                          <img src="assets/images/info-01.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-sm-7">
+                        <div class="right-content">
+                          <h4>Implante Auricular Estético</h4>
+                          <p>La prótesis auricular externa es un tipo de prótesis que busca reemplazar el pabellón auricular, a veces llamado oreja, con fines estéticos, usualmente causado por microtia o anotia, que son causados por afecciones congénitas, oncológicas o traumáticas.</p>
+                          <ul class="info">
+                            <li><i class="fa fa-user"></i> Jóvenes </li>
+                            <li><i class="fa fa-gear"></i> Estético</li>
+                          </ul>
+                          <div class="text-button">
+                            <a href="assets/infografia/ImplanteAuricularEstético.pdf" target="_blank">Descargar <i class="fa fa-arrow-right"></i></a>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <div class="col-lg-8 col-sm-7">
-                      <div class="right-content">
-                        <h4>Implante Auricular Estético</h4>
-                        <p>La prótesis auricular externa es un tipo de prótesis que busca reemplazar el pabellón auricular, a veces llamado oreja, con fines estéticos, usualmente causado por microtia o anotia, que son causados por afecciones congénitas, oncológicas o traumáticas.</p>
-                        <ul class="info">
-                          <li><i class="fa fa-user"></i> Jóvenes </li>
-                          <li><i class="fa fa-gear"></i> Estético</li>
-                        </ul>
-                        <div class="text-button">
-                          <a href="assets/infografia/ImplanteAuricularEstético.pdf">Descargar <i class="fa fa-arrow-right"></i></a>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-5">
+                        <div class="image">
+                          <img src="assets/images/info-02.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-sm-7">
+                        <div class="right-content">
+                          <h4>Implante Coclear</h4>
+                          <p>Es un dispositivo electrónico que estimula el nervio auditivo y que permite brindar audición a personas con sordera severa. Se compone de dos partes, una externa, que es un procesador (micrófono), que capta los sonidos, los procesa y los envía al componente interno, que consta de un receptor y de electrodos que se insertan en la cóclea, lo que permite la audición. Trata la hipoacusia.</p>
+                          <ul class="info">
+                            <li><i class="fa fa-user"></i> Jóvenes </li>
+                            <li><i class="fa fa-gear"></i> Funcional</li>
+                          </ul>
+                          <div class="text-button">
+                            <a href="assets/infografia/ImplanteCoclear.pdf" target="_blank">Descargar <i class="fa fa-arrow-right"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-5">
+                        <div class="image">
+                          <img src="assets/images/info-03.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-sm-7">
+                        <div class="right-content">
+                          <h4>Implante Craneofaciales</h4>
+                          <p>Un implante o una prótesis craneofacial es un dispositivo que se coloca en la parte de la bóveda craneal y la zona facial para asemejar su funcionalidad y geometría. Se usan para tratar traumatismos, procesos oncológicos, defectos de nacimiento, etc, por lo que reemplazan la función estructural del lugar donde se encuentren.</p>
+                          <ul class="info">
+                            <li><i class="fa fa-user"></i> Jóvenes </li>
+                            <li><i class="fa fa-gear"></i> Estructural</li>
+                          </ul>
+                          <div class="text-button">
+                            <a href="assets/infografia/ImplantesCraneofaciales.pdf" target="_blank">Descargar <i class="fa fa-arrow-right"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-5">
+                        <div class="image">
+                          <img src="assets/images/info-04.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-sm-7">
+                        <div class="right-content">
+                          <h4>Implante Faciales Estéticos</h4>
+                          <p>Los implantes faciales estéticos son aquellos que su única función es cambiar la forma, tamaño o posición de alguna facción de la cara con un fin estético. </p>
+                          <ul class="info">
+                            <li><i class="fa fa-user"></i> Jóvenes </li>
+                            <li><i class="fa fa-gear"></i> Estético</li>
+                          </ul>
+                          <div class="text-button">
+                            <a href="assets/infografia/ImplantesFacialesEstéticos.pdf" target="_blank">Descargar <i class="fa fa-arrow-right"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-5">
+                        <div class="image">
+                          <img src="assets/images/info-05.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-sm-7">
+                        <div class="right-content">
+                          <h4>Implante Oculares</h4>
+                          <p>Los implantes oculares son cualquier dispositivo, tejido o elemento que se introduce en el globo ocular con diferentes funciones, ya sea estética, mejorar el  funcionamiento de los ojos, el reemplazo de alguna de sus estructuras o la optimización de los ojos.</p>
+                          <ul class="info">
+                            <li><i class="fa fa-user"></i> Jóvenes </li>
+                            <li><i class="fa fa-gear"></i> Estético/Funcional</li>
+                          </ul>
+                          <div class="text-button">
+                            <a href="assets/infografia/ImplantesOculares.pdf" target="_blank">Descargar <i class="fa fa-arrow-right"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-lg-4 col-sm-5">
+                        <div class="image">
+                          <img src="assets/images/info-06.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="col-lg-8 col-sm-7">
+                        <div class="right-content">
+                          <h4>Implante y Prótesis Dentales</h4>
+                          <p>Las prótesis dentales son elementos artificiales creados para sustituir la ausencia de dientes y recuperar la funcionalidad de la boca. Los implantes dentales son raíces artificiales de titanio que imitan a un diente natural, y estos se fijan en el hueso de la mandíbula. Los implantes entonces son como la raíz y las prótesis como la corona del diente.</p>
+                          <ul class="info">
+                            <li><i class="fa fa-user"></i> Jóvenes </li>
+                            <li><i class="fa fa-gear"></i> Funcional</li>
+                          </ul>
+                          <div class="text-button">
+                            <a href="assets/infografia/ImplantesPrótesisDentales.pdf" target="_blank">Descargar <i class="fa fa-arrow-right"></i></a>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-12">
-                <div class="item">
-                  <div class="row">
-                    <div class="col-lg-4 col-sm-5">
-                      <div class="image">
-                        <img src="assets/images/info-02.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- ***** Infografias Termina ***** -->
+<!-- ***** Videos Inicia ***** -->
+      <div class="multimedia" id="videos" style="display:none">
+        <div class="row"  id="videos">
+          <div class="col-lg-8">
+            <div class="items">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-lg-7 col-sm-7">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/mXXrcVtx_jU?si=1XC4UG4nIIDZ3x3j" referrerpolicy="strict-origin-when-cross-origin" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                      
                       </div>
-                    </div>
-                    <div class="col-lg-8 col-sm-7">
-                      <div class="right-content">
-                        <h4>Implante Coclear</h4>
-                        <p>Es un dispositivo electrónico que estimula el nervio auditivo y que permite brindar audición a personas con sordera severa. Se compone de dos partes, una externa, que es un procesador (micrófono), que capta los sonidos, los procesa y los envía al componente interno, que consta de un receptor y de electrodos que se insertan en la cóclea, lo que permite la audición. Trata la hipoacusia.</p>
-                        <ul class="info">
-                          <li><i class="fa fa-user"></i> Jóvenes </li>
-                          <li><i class="fa fa-gear"></i> Funcional</li>
-                        </ul>
-                        <div class="text-button">
-                          <a href="assets/infografia/ImplanteCoclear.pdf">Descargar <i class="fa fa-arrow-right"></i></a>
+                      <div class="col-lg-5 col-sm-5">
+                        <div class="right-content">
+                          <h4>Implantes Craneofaciales</h4>
+                          <p>Entrevista con la Dra Griselda Zarazúa, especialista en prótesis maxilofacial y odontología oncológica, donde nos explica sobre la utilidad de las prótesis craneofaciales, por qué se usan, requisitos de los tejidos para el implante, etc.</p>
+                          <p>Créditos: OdontoblogMx</p>
+                          <ul class="info">
+                            <li><i class="fa fa-user"></i> Jóvenes </li>
+                            <li><i class="fa fa-info"></i> General</li>
+                          </ul>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="item">
-                  <div class="row">
-                    <div class="col-lg-4 col-sm-5">
-                      <div class="image">
-                        <img src="assets/images/info-03.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="col-lg-8 col-sm-7">
-                      <div class="right-content">
-                        <h4>Implante Craneofaciales</h4>
-                        <p>Un implante o una prótesis craneofacial es un dispositivo que se coloca en la parte de la bóveda craneal y la zona facial para asemejar su funcionalidad y geometría. Se usan para tratar traumatismos, procesos oncológicos, defectos de nacimiento, etc, por lo que reemplazan la función estructural del lugar donde se encuentren.</p>
-                        <ul class="info">
-                          <li><i class="fa fa-user"></i> Jóvenes </li>
-                          <li><i class="fa fa-gear"></i> Estructural</li>
-                        </ul>
-                        <div class="text-button">
-                          <a href="assets/infografia/ImplantesCraneofaciales.pdf">Descargar <i class="fa fa-arrow-right"></i></a>
+                <div class="col-lg-12">
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-lg-7 col-sm-7">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-75FJiDK_vo?si=TRlPoqIw1mlXDaN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+                      </div>                    
+                        <div class="col-lg-5 col-sm-5">
+                        <div class="right-content">
+                          <h4>Implantes Craneofaciales</h4>
+                          <p>El investigador Leopoldo Ruiz Huerta del CCADET (ahora ICAT) de la UNAM explica las ventajas de la manufactura aditiva en los implantes craneofaciales. Reportado por Arturo Moreno y Raúl Adorno, con imágenes de Jaime López.</p>
+                          <p>Créditos: NotimexTV</p>
+                          <ul class="info">
+                            <li><i class="fa fa-user"></i> Jóvenes </li>
+                            <li><i class="fa fa-info"></i> Manufactura</li>
+                          </ul>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="item">
-                  <div class="row">
-                    <div class="col-lg-4 col-sm-5">
-                      <div class="image">
-                        <img src="assets/images/info-04.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="col-lg-8 col-sm-7">
-                      <div class="right-content">
-                        <h4>Implante Faciales Estéticos</h4>
-                        <p>Los implantes faciales estéticos son aquellos que su única función es cambiar la forma, tamaño o posición de alguna facción de la cara con un fin estético. </p>
-                        <ul class="info">
-                          <li><i class="fa fa-user"></i> Jóvenes </li>
-                          <li><i class="fa fa-gear"></i> Estético</li>
-                        </ul>
-                        <div class="text-button">
-                          <a href="assets/infografia/ImplantesFacialesEstéticos.pdf">Descargar <i class="fa fa-arrow-right"></i></a>
+                <div class="col-lg-12">
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-lg-7 col-sm-7">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/u3a4iM-9ReA?si=v2sALQCxuDOnUVC9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                      </div>
+                      <div class="col-lg-5 col-sm-5">
+                        <div class="right-content">
+                          <h4>Implante Coclear</h4>
+                          <p>El doctor Ignacio Alcalá explica generalidades sobre el implante coclear en este corto video de ocho minutos. Nos cuenta sobre qué es el implante coclear, cómo es que funciona, las dos principales partes que tiene un implante coclear y, finalmente, quién puede ser candidato a un implante coclear.</p>
+                          <p>Créditos: Dr. Ignacio Alcalá - Médico del Oído</p>
+                          <ul class="info">
+                            <li><i class="fa fa-user"></i> Jóvenes </li>
+                            <li><i class="fa fa-info"></i> General</li>
+                          </ul>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="item">
-                  <div class="row">
-                    <div class="col-lg-4 col-sm-5">
-                      <div class="image">
-                        <img src="assets/images/info-05.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="col-lg-8 col-sm-7">
-                      <div class="right-content">
-                        <h4>Implante Oculares</h4>
-                        <p>Los implantes oculares son cualquier dispositivo, tejido o elemento que se introduce en el globo ocular con diferentes funciones, ya sea estética, mejorar el  funcionamiento de los ojos, el reemplazo de alguna de sus estructuras o la optimización de los ojos.</p>
-                        <ul class="info">
-                          <li><i class="fa fa-user"></i> Jóvenes </li>
-                          <li><i class="fa fa-gear"></i> Estético/Funcional</li>
-                        </ul>
-                        <div class="text-button">
-                          <a href="assets/infografia/ImplantesOculares.pdf">Descargar <i class="fa fa-arrow-right"></i></a>
+                <div class="col-lg-12">
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-lg-7 col-sm-7">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-2-7zry6NW0?si=0UShPLtTmhkhkE-v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                      </div>
+                      <div class="col-lg-5 col-sm-5">
+                        <div class="right-content">
+                          <h4>Implantes Faciales Estéticos</h4>
+                          <p>El doctor cirujano plástico Alberto Calvo Quirós nos cuenta sobre los diferentes tipos de implantes faciales estéticos que se ofrecen y nos explica en qué casos se usan estos implantes para mejorar la armonía facial, o en qué casos no se recomiendan los implantes estéticos.</p>
+                          <p>Créditos: Medicina Extraordinaria</p>
+                          <ul class="info">
+                            <li><i class="fa fa-user"></i> Jóvenes </li>
+                            <li><i class="fa fa-info"></i> Tipos</li>
+                          </ul>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="item">
-                  <div class="row">
-                    <div class="col-lg-4 col-sm-5">
-                      <div class="image">
-                        <img src="assets/images/info-06.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="col-lg-8 col-sm-7">
-                      <div class="right-content">
-                        <h4>Implante y Prótesis Dentales</h4>
-                        <p>Las prótesis dentales son elementos artificiales creados para sustituir la ausencia de dientes y recuperar la funcionalidad de la boca. Los implantes dentales son raíces artificiales de titanio que imitan a un diente natural, y estos se fijan en el hueso de la mandíbula. Los implantes entonces son como la raíz y las prótesis como la corona del diente.</p>
-                        <ul class="info">
-                          <li><i class="fa fa-user"></i> Jóvenes </li>
-                          <li><i class="fa fa-gear"></i> Funcional</li>
-                        </ul>
-                        <div class="text-button">
-                          <a href="assets/infografia/ImplantesPrótesisDentales.pdf">Descargar <i class="fa fa-arrow-right"></i></a>
+                <div class="col-lg-12">
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-lg-7 col-sm-7">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/F8j0xi0RDnY?si=jAVP4bLl6gK8PCeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                      </div>
+                      <div class="col-lg-5 col-sm-5">
+                        <div class="right-content">
+                          <h4>Prótesis Auricular Estética</h4>
+                          <p>La doctora Beatriz Nuñez Rivera, protesista maxilofacial, nos explica sobre el proceso de creación de una prótesis auricular estética, desde la primera cita con el paciente, hasta los detalles finales de la prótesis. La doctora también explica dudas comunes, como, por ejemplo, ¿se puede tener aretes o piercings en la prótesis?</p>
+                          <p>Créditos: OdontoblogMx</p>
+                          <ul class="info">
+                            <li><i class="fa fa-user"></i> Jóvenes </li>
+                            <li><i class="fa fa-info"></i> Manufactura</li>
+                          </ul>
                         </div>
                       </div>
                     </div>
@@ -239,7 +359,7 @@ https://templatemo.com/tm-580-woox-travel
       </div>
     </div>
   </div>
-    <!-- ***** Infografias Termina ***** -->
+    <!-- ***** Videos Termina ***** -->
 
   <footer>
     <div class="container">
@@ -263,6 +383,22 @@ https://templatemo.com/tm-580-woox-travel
   <script src="../../assets/js/tabs.js"></script>
   <script src="../../assets/js/popup.js"></script>
   <script src="../../assets/js/custom.js"></script>
+
+  <script>//Pestañas de infografias y videos
+    function abrePestana(evt, tipo) {
+      var i, tablinks;
+      var x = document.getElementsByClassName("multimedia");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      document.getElementById(tipo).style.display = "block";
+      tablinks = document.getElementsByClassName("pestana-button");
+      for (i = 0; i < x.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" pestana-activa", "");
+      }
+      evt.currentTarget.className += " pestana-activa";
+    }
+  </script>
 
   </body>
 
