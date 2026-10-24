@@ -1219,6 +1219,89 @@ About Page Style
   opacity: 1;
 }
 
+.about-jovenes-content {
+  margin-top: 70px;
+  background-image: url(../images/about-jovenes-bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 130px 0px 200px 0px;
+}
+
+.blur-bg-jovenes {
+	width: 100%;
+  height: 100%;
+  background: url(../images/about-jovenes-bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  filter: blur(8px) brightness(80%);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.about-jovenes-content .content {
+  border-radius: 23px;
+  text-align: center;
+  padding: 120px 60px;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.about-jovenes-content .content h2 {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.about-jovenes-content .content .line-dec {
+  position: relative;
+  z-index: 2;
+  width: 100px;
+  height: 2px;
+  background-color: rgba(250,250,250,0.3);
+  margin: 20px auto;
+}
+
+.about-jovenes-content .content h4 {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.about-jovenes-content .content p {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+  padding: 0px 15%;
+}
+
+.about-jovenes-content .content .main-button {
+  position: relative;
+  z-index: 2;
+  margin-top: 30px;
+}
+
+.about-jovenes-content .content .main-button a {
+  background-color: #224e87;
+  color: #fff;
+  border-color: #224e87;
+  opacity: 0.9;
+}
+
+.about-jovenes-content .content .main-button a:hover {
+  background-color: #22b3c1;
+  color: #fff;
+  border-color: #22b3c1;
+  opacity: 1;
+}
+
 .cities-town .slider-content {
   min-height: 100%;
   max-height: 100%;
